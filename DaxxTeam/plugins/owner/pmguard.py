@@ -104,8 +104,8 @@ async def unblock_user_func(client, message):
 
 __NAME__ = "Guard"
 __MENU__ = f"""
-**🥀 An Advanced Security System
-To Protect From DM Spams ✨.**
+** An Advanced Security System
+To Protect From DM Spams .**
 
 `.pmguard [`on`|off`] - Activate
 or Deactivate PM Guard Security.
