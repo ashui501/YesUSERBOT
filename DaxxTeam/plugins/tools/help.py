@@ -56,19 +56,19 @@ async def help_button(client, query):
     next_match = re.match(r"help_next\((.+?)\)", query.data)
     back_match = re.match(r"help_back", query.data)
     top_text = f"""
-**🥀 Welcome To Help Menu Of
-Daxx Userbot » {__version__} ✨...
+** Welcome To Help Menu Of
+Daxx Userbot » {__version__} ...
 
-Click On Below 🌺 Buttons To
+Click On Below  Buttons To
 Get Userbot Commands.
 
-🌷Powered By : [DAXX Server](https://t.me/DAXXSUPPORT).**
+Powered By : [LOVELY Server](https://t.me/NAMIKAZECPAN).**
 """
     
     if plug_match:
         plugin = plug_match.group(1)
         text = (
-            "**🥀 Welcome To Help Menu Of:\n♨️ Plugin :** {}\n".format(
+            "** Welcome To Help Menu Of:\n Plugin :** {}\n".format(
                 plugs[plugin].__NAME__
             )
             + plugs[plugin].__MENU__
@@ -77,7 +77,7 @@ Get Userbot Commands.
             [
                 [
                     InlineKeyboardButton(
-                        text="↪️ Back", callback_data="help_back"
+                        text=" Back", callback_data="help_back"
                     )
                 ],
             ]
