@@ -11,22 +11,22 @@ async def help_menu_logo(answer):
     if image:
         thumb_image = image
     else:
-        thumb_image = "https://telegra.ph/file/027283ee9defebc3298b8.png"
+        thumb_image = https://telegra.ph/file/027283ee9defebc3298b8.png"
     button = paginate_plugins(0, plugs, "help")
     answer.append(
         InlineQueryResultPhoto(
             photo_url=f"{thumb_image}",
-            title="🥀 Help Menu ✨",
+            title=" Help Menu ",
             thumb_url=f"{thumb_image}",
-            description=f"🥀 Open Help Menu Of DAXXUSERBOT ✨...",
+            description=f" Open Help Menu Of LOVELYUSERBOT ...",
             caption=f"""
-**🥀 Welcome To Help Menu Of
+** Welcome To Help Menu Of
 Daxx Userbot » {__version__} ✨...
 
-Click On Below 🌺 Buttons To
+Click On Below  Buttons To
 Get Userbot Commands.
 
-🌷Powered By : [DAXX Server](https://t.me/DAXXSUPPORT).**
+🌷Powered By : [LOVELY Server](https://t.me/NAMIKAZECPAN).**
             """,
             reply_markup=InlineKeyboardMarkup(button),
         )
@@ -39,15 +39,15 @@ async def help_menu_text(answer):
     button = paginate_plugins(0, plugs, "help")
     answer.append(
         InlineQueryResultArticle(
-            title="🥀 Help Menu ✨",
+            title=" Help Menu ",
             input_message_content=InputTextMessageContent(f"""
-**🥀 Welcome To Help Menu Of
+** Welcome To Help Menu Of
 Daxx Userbot » {__version__} ✨...
 
-Click On Below 🌺 Buttons To
+Click On Below  Buttons To
 Get Userbot Commands.
 
-🌷Powered By : [DAXX Server](https://t.me/DAXXSUPPORT).**""",
+Powered By : [LOVELY Server](https://t.me/NAMIKAZECPAN).**""",
             disable_web_page_preview=True
             ),
             reply_markup=InlineKeyboardMarkup(button),
