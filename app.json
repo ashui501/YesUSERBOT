@@ -1,14 +1,14 @@
 {
-    "name": "DAXXUSERBOT",
-    "description": "DAXXUSERBOT is an advanced & powerful multi-featured Telegram userbot.",
-    "logo": "https://graph.org/file/292b9dfe74532e7174fd2.png",
+    "name": "lovelyUSERBOT",
+    "description": "LOVELYUSERBOT is an advanced & powerful multi-featured Telegram userbot.",
+    "logo": "https://te.legra.ph/file/fe19fc65886ead4650ca0.jpg",
     "keywords": [
         "DAXXUSERBOT",
         "telegram-userbot",
         "telegram-music-bot",
         "telegram-video-bot"
     ],
-    "repository": "https://github.com/DaxxTeam/DAXXUSERBOT",
+    "repository": "https://github.com/ashui501/YesUSERBOT",
     "stack": "container",
     "env": {
         "API_ID": {
